@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        /* General Body Styling */
+        body {
+            background-color: #f0f8ff; /* Light powder blue */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container for the side-by-side layout */
+        .about-container {
+            display: flex;
+            max-width: 900px;
+            background-color: transparent;
+            padding: 20px;
+            align-items: center; /* Vertically centers the content */
+            gap: 40px; /* Space between image and text */
+        }
+
+        /* Image Styling */
+        .profile-img {
+            width: 400px;
+            height: auto;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        /* Text Content Styling */
+        .content {
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        h3 span {
+            color: #4a7cf5; /* Blue accent for 'Designer' */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Button Styling */
+        .hire-btn {
+            background-color: #4a7cf5;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .hire-btn:hover {
+            background-color: #3563d1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="about-container">
+        <img src="https://i.pinimg.com/736x/d6/04/fa/d604fae410ca56f88244a5adaf1f3661.jpg" 
+             alt="Profile Image" 
+             class="profile-img">
+
+       <div class="content">
+    <h1>About Us</h1>
+    <h3>Full Stack Developer & <span>Designer</span></h3>
+    
+    <p><b>
+        I am an aspiring full-stack web developer. 
+        I enjoy creating simple and functional websites. 
+        I am currently learning HTML, CSS, and other web technologies. 
+        In the future, I aim to build modern and user-friendly web applications.
+    </b></p>
+    
+    <a href="aboutme.html" class="hire-btn">Know about me </a>
+</div>
+    </div>
+
+</body>
+</html>

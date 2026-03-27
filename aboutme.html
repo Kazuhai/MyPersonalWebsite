@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Hobbies</title>
+    <style>
+        /* Same design as your main page */
+        body {
+            background-color: #f0f8ff; /* Same powder blue */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .about-container {
+            display: flex;
+            max-width: 900px;
+            background-color: transparent;
+            padding: 20px;
+            align-items: center; 
+            gap: 40px;
+        }
+
+        /* Image size kept at 400px */
+        .profile-img {
+            width: 400px;
+            height: auto;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .content {
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: #4a7cf5;
+            margin-top: 20px;
+        }
+
+        /* List Styling */
+        ul, ol {
+            color: #555;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+      /* Button Styling */
+        .hire-btn {
+            background-color: #4a7cf5;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .back-btn:hover {
+            background-color: #3563d1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="about-container">
+        <img src="https://i.pinimg.com/736x/d6/04/fa/d604fae410ca56f88244a5adaf1f3661.jpg" 
+             alt="Profile Image" 
+             class="profile-img">
+
+        <div class="content">
+            <h1>My Hobbies</h1>
+            
+            <ul>
+                <li>Coding & Web Development</li>
+                <li>Digital Photography</li>
+                <li>Creative Writing</li>
+            </ul>
+
+            <h3>Why I Love Development</h3>
+            <ol>
+                <li>
+                    <strong>Building from Scratch</strong>
+                    <ul>
+                        <li><b>Advantage:</b> Complete creative control.</li>
+                        <li><b>Disadvantage:</b> Takes a lot of time and planning.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Continuous Learning</strong>
+                    <ul>
+                        <li><b>Advantage:</b> You never stop growing.</li>
+                        <li><b>Disadvantage:</b> It can be hard to keep up with new updates.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <a href="website.html" class="hire-btn">More Info</a>
+        </div>
+    </div>
+
+</body>
+</html>
